@@ -1,0 +1,2741 @@
+,0,1
+0,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2011-2012   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          120857507   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          120195096              24706955   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              16315129                     79173012   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        46128636                     73809988  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                  1017141653976440      8094811             42942913   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                        35154642                    7788271   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                        93118102027                    34346739   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                               28320788                           6025951   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                               72486744584  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                     2882                    2882   
+1                                    17687                   17687   
+2                                    24827                   24827   
+3                                     7845                    1726   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 874923                  874602   
+634                                 670770                  670394   
+635                                 446947                  446937   
+636                                  86873                   86823   
+637                              120857507               120195096   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       4                  2211                          667   
+1                       0                     0                        17687   
+2                       0                   344                        24483   
+3                       1                  1703                           22   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                181485                151140                       541977   
+634                100443                  5146                       564805   
+635                 80928                 81527                       284482   
+636                 39210                 23523                        24090   
+637              24706955              16315129                     79173012   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                              1284                         1475  ...   
+1                             10503                        13008  ...   
+2                              8125                         9103  ...   
+3                                 0                            0  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          522731                       846686  ...   
+634                          342826                       509674  ...   
+635                          191159                       351773  ...   
+636                           41685                        44277  ...   
+637                        46128636                     73809988  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                 615          485                  454   
+1                            44676669          395                 2158   
+2                                 519          360                 8920   
+3                                   0            1                    0   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                  1017000471490160        56822               417668   
+634                         490273531        30366               416378   
+635                         230739584        22423                18718   
+636                              2234         1044                 5691   
+637                  1017141653976440      8094811             42942913   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                               268                        186   
+1                              2083                         75   
+2                              8450                        470   
+3                                 0                          0   
+4                                 0                          0   
+..                              ...                        ...   
+633                          285768                     131900   
+634                          406832                       9546   
+635                           14345                       4373   
+636                            5619                         72   
+637                        35154642                    7788271   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                              1758958                           3   
+1                             10985350                         118   
+2                             12674520                         821   
+3                                    0                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                          908246435                      358697   
+634                          700690043                      216116   
+635                           40296666                      236313   
+636                            6538935                       57867   
+637                        93118102027                    34346739   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        2                                 1   
+1                                      117                                 1   
+2                                      815                                 6   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                 244532                            114165   
+634                                 209913                              6203   
+635                                 215130                             21183   
+636                                  56748                              1119   
+637                               28320788                           6025951   
+
+     Amount disbursed to post office accounts  
+0                                        2100  
+1                                      223380  
+2                                      657794  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                 718778082  
+634                                 408290090  
+635                                 388488233  
+636                                  88599044  
+637                               72486744584  
+
+[638 rows x 42 columns]"
+1,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2012-2013   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          125991924   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          124747235              26457858   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              16874195                     81415182   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        45622028                     72082186  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                      187588441143     11049569             54230896   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                        45292526                    8938370   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                       100290921226                    35332233   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                               30755165                           4577068   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                               73378549869  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                     5149                    5145   
+1                                    18292                   18292   
+2                                    25048                   25048   
+3                                     8176                    3554   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 898113                  894792   
+634                                 685931                  683726   
+635                                 456861                  455667   
+636                                  91666                   91541   
+637                              125991924               124747235   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       4                  3628                         1513   
+1                       0                     0                        18292   
+2                       0                   348                        24700   
+3                       1                  3499                           54   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                187578                156977                       550237   
+634                101954                  5112                       576660   
+635                 83091                 84533                       288043   
+636                 42256                 25053                        24232   
+637              26457858              16874195                     81415182   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                              1481                         1691  ...   
+1                             10668                        13351  ...   
+2                              6063                         6798  ...   
+3                                 4                            4  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          553205                       931041  ...   
+634                          421531                       669275  ...   
+635                          228364                       441796  ...   
+636                           43330                        46176  ...   
+637                        45622028                     72082186  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                 513          609                 1504   
+1                           106937858          477                 2208   
+2                              486090          316                 7506   
+3                                  22           11                 2181   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                         519031428        66449               667220   
+634                         682618646        53058               554787   
+635                         304890351        22025                76271   
+636                           4914454         1266                21536   
+637                      187588441143     11049569             54230896   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                              1253                        251   
+1                              2131                         77   
+2                              7075                        431   
+3                              2172                          9   
+4                                 0                          0   
+..                              ...                        ...   
+633                          557518                     109702   
+634                          543596                      11191   
+635                           68884                       7387   
+636                           21436                        100   
+637                        45292526                    8938370   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                              2626468                           2   
+1                             10071489                         128   
+2                              1534894                         492   
+3                                 1099                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                         1094268706                      364730   
+634                         1210108206                      208378   
+635                          160727155                      432279   
+636                           26966323                       56890   
+637                       100290921226                    35332233   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        2                                 0   
+1                                      127                                 1   
+2                                      490                                 2   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                 267531                             97199   
+634                                 203921                              4457   
+635                                 403539                             28740   
+636                                  55973                               917   
+637                               30755165                           4577068   
+
+     Amount disbursed to post office accounts  
+0                                        1195  
+1                                      193308  
+2                                       64436  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                 605078355  
+634                                 472439777  
+635                                 798006474  
+636                                  78449371  
+637                               73378549869  
+
+[638 rows x 42 columns]"
+2,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2013-2014   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          123610400   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          121910099              26159448   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              16495975                     79254676   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        48876634                     77017640  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                      161577347487     14099815             62543648   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                        52259483                   10284165   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                       165471383550                    35834165   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                               31785216                           4048949   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                               61628362257  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                     5512                    5511   
+1                                    19765                   19765   
+2                                    25374                   25374   
+3                                     8157                    3549   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 921649                  915855   
+634                                 707296                  700958   
+635                                 469053                  464724   
+636                                  96178                   95277   
+637                              123610400               121910099   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       4                  3930                         1577   
+1                       0                     0                        19765   
+2                       0                   348                        25026   
+3                       1                  3496                           52   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                196037                164153                       555665   
+634                104467                  5171                       591320   
+635                 84361                 86997                       293366   
+636                 43560                 26166                        25551   
+637              26159448              16495975                     79254676   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                              2068                         2419  ...   
+1                             11005                        14415  ...   
+2                              3793                         4335  ...   
+3                                 0                            0  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          611962                      1026070  ...   
+634                          427165                       679790  ...   
+635                          257996                       512743  ...   
+636                           58679                        64754  ...   
+637                        48876634                     77017640  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                 671          675                 1791   
+1                           170213760          573                 2207   
+2                                 468          279                 7522   
+3                                   2           10                 2181   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                         438277529       125520               840354   
+634                         404317944        95755               791704   
+635                         200742253        27687               110259   
+636                            708931         1980                44866   
+637                      161577347487     14099815             62543648   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                              1737                         54   
+1                              2135                         72   
+2                              7091                        431   
+3                              2172                          9   
+4                                 0                          0   
+..                              ...                        ...   
+633                          723358                     116996   
+634                          774507                      17197   
+635                          101504                       8755   
+636                           44590                        276   
+637                        52259483                   10284165   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                              3909507                           2   
+1                              9292819                         124   
+2                              6757420                         507   
+3                                    0                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                         1577829409                      321479   
+634                         1288849218                      107137   
+635                          249033220                      458664   
+636                          106266772                       39968   
+637                       165471383550                    35834165   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        2                                 0   
+1                                      123                                 1   
+2                                      505                                 2   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                 232474                             89005   
+634                                 105739                              1398   
+635                                 431854                             26810   
+636                                  39561                               407   
+637                               31785216                           4048949   
+
+     Amount disbursed to post office accounts  
+0                                           0  
+1                                      503274  
+2                                      278332  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                 559211306  
+634                                 142148503  
+635                                 960422466  
+636                                  78088610  
+637                               61628362257  
+
+[638 rows x 42 columns]"
+3,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2014-2015   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          122612430   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          121309320              26139993   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              16396957                     78772370   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        43423207                     67070385  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                       17207985945      9933192             75024414   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                        63806921                   11217493   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                       167056547397                    32357848   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                               29091430                           3266418   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                               46236074098  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                     4245                    4244   
+1                                    20511                   20511   
+2                                    25278                   25278   
+3                                     8157                    3549   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 944010                  942006   
+634                                 727831                  725648   
+635                                 479954                  478208   
+636                                  99874                   99555   
+637                              122612430               121309320   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       4                  2822                         1418   
+1                       0                     0                        20511   
+2                       0                   348                        24930   
+3                       1                  3496                           52   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                205728                168151                       568127   
+634                108231                  4840                       612577   
+635                 85742                 88397                       304069   
+636                 45614                 27206                        26735   
+637              26139993              16396957                     78772370   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                              1194                         1352  ...   
+1                              9959                        12827  ...   
+2                              2577                         2798  ...   
+3                                 0                            0  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          595215                       990182  ...   
+634                          391689                       607036  ...   
+635                          196440                       362148  ...   
+636                           39542                        43893  ...   
+637                        43423207                     67070385  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                   0            0                 1792   
+1                                   0            0                 2207   
+2                                   0            0                 7535   
+3                                   0            0                 2181   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                         253099810        94093              1067499   
+634                         189195212       115761               912916   
+635                          70611365        27416               197882   
+636                            120697         1988                66509   
+637                       17207985945      9933192             75024414   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                              1738                         54   
+1                              2135                         72   
+2                              7106                        429   
+3                              2172                          9   
+4                                 0                          0   
+..                              ...                        ...   
+633                          930407                     137092   
+634                          889845                      23071   
+635                          187738                      10144   
+636                           65849                        660   
+637                        63806921                   11217493   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                              1304522                           2   
+1                              6893011                         124   
+2                              1935618                         506   
+3                                    0                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                         3136922352                      156497   
+634                         2233248114                       70832   
+635                          318593499                      412949   
+636                          114686736                       26514   
+637                       167056547397                    32357848   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        2                                 0   
+1                                      123                                 1   
+2                                      504                                 2   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                 119761                             36736   
+634                                  69964                               868   
+635                                 389628                             23321   
+636                                  26286                               228   
+637                               29091430                           3266418   
+
+     Amount disbursed to post office accounts  
+0                                           0  
+1                                       97746  
+2                                      195582  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                 258266402  
+634                                  88835733  
+635                                 701941874  
+636                                  25850470  
+637                               46236074098  
+
+[638 rows x 42 columns]"
+4,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2015-2016   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          125770827   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          123615093              26446154   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              16332325                     80836614   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        50015612                     77900076  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                       11991750541     13564504             92507793   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                        81796359                   10711434   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                       240596572971                    17636835   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                               15976754                           1660081   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                               21039070382  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                     5737                    5736   
+1                                    20967                   20967   
+2                                    25337                   25337   
+3                                     8157                    3549   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 964128                  961506   
+634                                 742591                  739641   
+635                                 488525                  486353   
+636                                 101770                  101395   
+637                              125770827               123615093   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       4                  4057                         1675   
+1                       0                     0                        20967   
+2                       0                   348                        24989   
+3                       1                  3496                           52   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                207753                169432                       584321   
+634                109023                  4863                       625755   
+635                 86379                 89314                       310660   
+636                 46247                 27727                        27421   
+637              26446154              16332325                     80836614   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                               763                          810  ...   
+1                              7233                         8908  ...   
+2                              1995                         2249  ...   
+3                                 0                            0  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          577718                       994041  ...   
+634                          427570                       669504  ...   
+635                          245548                       479333  ...   
+636                           52201                        59170  ...   
+637                        50015612                     77900076  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                   0            0                 4458   
+1                                   0            0                19113   
+2                                   0            0                11556   
+3                                   0            0                 2181   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                         148642513       139428              1241924   
+634                          67823525       172475              1033668   
+635                          30867879        47827               321245   
+636                              8343        16025                88530   
+637                       11991750541     13564504             92507793   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                              4279                        179   
+1                             18887                        226   
+2                             10993                        563   
+3                              2172                          9   
+4                                 0                          0   
+..                              ...                        ...   
+633                         1085514                     156410   
+634                         1004442                      29226   
+635                          308862                      12383   
+636                           87014                       1516   
+637                        81796359                   10711434   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                              2603575                           2   
+1                             45681598                        2582   
+2                              4239798                         218   
+3                                    0                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                         4434438330                       98604   
+634                         2420803608                       55954   
+635                          503754631                      303651   
+636                          159398698                       17710   
+637                       240596572971                    17636835   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        2                                 0   
+1                                     2557                                25   
+2                                      218                                 0   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                  78332                             20272   
+634                                  55268                               686   
+635                                 285760                             17891   
+636                                  17569                               141   
+637                               15976754                           1660081   
+
+     Amount disbursed to post office accounts  
+0                                           0  
+1                                     4753661  
+2                                       58368  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                  42730021  
+634                                  37674522  
+635                                 319544941  
+636                                  16840868  
+637                               21039070382  
+
+[638 rows x 42 columns]"
+5,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2016-2017   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          123671275   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          121170456              25904900   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              15854541                     79411015   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        53460504                     83477948  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                        8175392963     18894633            110490968   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                       101908983                    8581985   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                       341600312268                    10759436   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                                9565333                           1194103   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                               10407983146  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                     5620                    5619   
+1                                    20234                   20234   
+2                                    10170                   10170   
+3                                     8157                    3549   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 976011                  972124   
+634                                 758838                  754081   
+635                                 497750                  494682   
+636                                 104666                  104195   
+637                              123671275               121170456   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       4                  3966                         1649   
+1                       0                     0                        20234   
+2                       0                     0                        10170   
+3                       1                  3496                           52   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                205815                167293                       599016   
+634                108269                  4784                       641028   
+635                 87086                 90163                       317433   
+636                 47350                 28354                        28491   
+637              25904900              15854541                     79411015   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                               927                         1116  ...   
+1                              7334                         9208  ...   
+2                              3509                         3979  ...   
+3                                 0                            0  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          532380                       880778  ...   
+634                          364722                       555519  ...   
+635                          192594                       359662  ...   
+636                           37641                        44392  ...   
+637                        53460504                     83477948  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                   0            0                 4425   
+1                                   0            0                20847   
+2                                   0            0                 9173   
+3                                   0            0                 2181   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                          82167161       172874              1403998   
+634                          13454759       203416              1149178   
+635                           5663756        63098               451799   
+636                             10321        14529               101895   
+637                        8175392963     18894633            110490968   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                              4246                        179   
+1                             20614                        233   
+2                              8731                        442   
+3                              2172                          9   
+4                                 0                          0   
+..                              ...                        ...   
+633                         1298454                     105544   
+634                         1117751                      31427   
+635                          436541                      15258   
+636                          100212                       1683   
+637                       101908983                    8581985   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                              2084697                           2   
+1                             28568760                         103   
+2                             10059280                         101   
+3                                    0                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                         5582983470                       82547   
+634                         3467027354                       45998   
+635                         1209008385                      250294   
+636                          390886801                       12937   
+637                       341600312268                    10759436   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        2                                 0   
+1                                      102                                 1   
+2                                      101                                 0   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                  67207                             15340   
+634                                  45432                               566   
+635                                 236003                             14291   
+636                                  12831                               106   
+637                                9565333                           1194103   
+
+     Amount disbursed to post office accounts  
+0                                           0  
+1                                       41400  
+2                                        8740  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                   5401239  
+634                                  27321996  
+635                                 288973195  
+636                                   1114674  
+637                               10407983146  
+
+[638 rows x 42 columns]"
+6,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2017-2018   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          124336095   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          120351247              25387548   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              15619268                     79344431   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        52942839                     81752565  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                       47355014565     24757959            126629788   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                       120921511                    5708277   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                       368796713032                     8340054   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                                7443343                            896711   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                                4607471543  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                     5585                    5584   
+1                                    19848                   19848   
+2                                    10081                   10081   
+3                                     9141                    3549   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 726728                  720283   
+634                                 773259                  762356   
+635                                 499683                  492864   
+636                                  96516                   95672   
+637                              124336095               120351247   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       4                  3934                         1646   
+1                       0                     0                        19848   
+2                       0                     0                        10081   
+3                       1                  3496                           52   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                157473                 97940                       464870   
+634                107893                  4786                       649677   
+635                 86134                 89409                       317321   
+636                 43851                 25831                        25990   
+637              25387548              15619268                     79344431   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                                 0                            0  ...   
+1                              2340                         2693  ...   
+2                               233                          248  ...   
+3                                 0                            0  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          430710                       726474  ...   
+634                          368208                       621400  ...   
+635                          222689                       463372  ...   
+636                           33245                        38623  ...   
+637                        52942839                     81752565  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                   0            0                 4425   
+1                                   0            0                20847   
+2                                   0            0                 9173   
+3                                   0            0                 2181   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                          17139645       167231              1189468   
+634                           8619177       315964              1260339   
+635                            261708       126888               519058   
+636                             11133         9222               109758   
+637                       47355014565     24757959            126629788   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                              4246                        179   
+1                             20614                        233   
+2                              8731                        442   
+3                              2172                          9   
+4                                 0                          0   
+..                              ...                        ...   
+633                         1145105                      44363   
+634                         1225852                      34487   
+635                          504986                      14072   
+636                          108086                       1672   
+637                       120921511                    5708277   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                                    0                           2   
+1                              4813210                         103   
+2                                    0                         101   
+3                                    0                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                         4306843208                       50005   
+634                         3577872319                       39285   
+635                         1577121355                      229076   
+636                          337036310                       12184   
+637                       368796713032                     8340054   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        2                                 0   
+1                                      102                                 1   
+2                                      101                                 0   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                  42865                              7140   
+634                                  38782                               503   
+635                                 216961                             12115   
+636                                  12085                                99   
+637                                7443343                            896711   
+
+     Amount disbursed to post office accounts  
+0                                           0  
+1                                           0  
+2                                           0  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                     61492  
+634                                   3808067  
+635                                  70662877  
+636                                     28160  
+637                                4607471543  
+
+[638 rows x 42 columns]"
+7,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+642                                                NaN   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2018-2019   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+642                                             Total:   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+642                                          129596051   
+643                                                NaN   
+644                                                NaN   
+645                                                NaN   
+646  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+642                                          125261953              26090440   
+643                                                NaN                   NaN   
+644                                                NaN                   NaN   
+645                                                NaN                   NaN   
+646  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+642              16078556                     83092957   
+643                   NaN                          NaN   
+644                   NaN                          NaN   
+645                   NaN                          NaN   
+646                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+642                        54650927                     83947619  ...   
+643                             NaN                          NaN  ...   
+644                             NaN                          NaN  ...   
+645                             NaN                          NaN  ...   
+646                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+642                       44882615785     29573954            137366608   
+643                               NaN          NaN                  NaN   
+644                               NaN          NaN                  NaN   
+645                               NaN          NaN                  NaN   
+646                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+642                       131478094                    5888514   
+643                             NaN                        NaN   
+644                             NaN                        NaN   
+645                             NaN                        NaN   
+646                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+642                       419819370149                     7500839   
+643                                NaN                         NaN   
+644                                NaN                         NaN   
+645                                NaN                         NaN   
+646                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+642                                6685528                            815311   
+643                                    NaN                               NaN   
+644                                    NaN                               NaN   
+645                                    NaN                               NaN   
+646                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+642                                2436192554  
+643                                       NaN  
+644                                       NaN  
+645                                       NaN  
+646                                       NaN  
+
+[647 rows x 42 columns]","      Sno.            State Name              District Name  \
+0      1.0   ANDAMAN AND NICOBAR                   NICOBARS   
+1      2.0   ANDAMAN AND NICOBAR   NORTH AND MIDDLE ANDAMAN   
+2      3.0   ANDAMAN AND NICOBAR              SOUTH ANDAMAN   
+3      4.0  DADRA & NAGAR HAVELI     DADRA AND NAGAR HAVELI   
+4      5.0           DAMAN & DIU                      DAMAN   
+..     ...                   ...                        ...   
+633  634.0           WEST BENGAL          PASCHIM MEDINIPUR   
+634  635.0           WEST BENGAL            PURBA MEDINIPUR   
+635  636.0           WEST BENGAL                    PURULIA   
+636  637.0           WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+637    NaN                   NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                        0                       0   
+1                                        0                       0   
+2                                        0                       0   
+3                                        0                       0   
+4                                        0                       0   
+..                                     ...                     ...   
+633                                 736253                  730813   
+634                                 782936                  773968   
+635                                 505141                  499558   
+636                                  97452                   96732   
+637                              129596051               125261953   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                       0                     0                            0   
+1                       0                     0                            0   
+2                       0                     0                            0   
+3                       0                     0                            0   
+4                       0                     0                            0   
+..                    ...                   ...                          ...   
+633                158718                 98653                       473442   
+634                108567                  4796                       660605   
+635                 86443                 90005                       323110   
+636                 44087                 26076                        26569   
+637              26090440              16078556                     83092957   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                                 0                            0  ...   
+1                                 0                            0  ...   
+2                                 0                            0  ...   
+3                                 0                            0  ...   
+4                                 0                            0  ...   
+..                              ...                          ...  ...   
+633                          271992                       525216  ...   
+634                          369786                       704714  ...   
+635                          161426                       330124  ...   
+636                           25009                        32157  ...   
+637                        54650927                     83947619  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                                   0            0                    0   
+1                                   0            0                    0   
+2                                   0            0                    0   
+3                                   0            0                    0   
+4                                   0            0                    0   
+..                                ...          ...                  ...   
+633                           4053840       243192              1235154   
+634                           7234170       457866              1293994   
+635                            257395       136496               575412   
+636                             10312         8096               113256   
+637                       44882615785     29573954            137366608   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                                 0                          0   
+1                                 0                          0   
+2                                 0                          0   
+3                                 0                          0   
+4                                 0                          0   
+..                              ...                        ...   
+633                         1192004                      43150   
+634                         1258962                      35032   
+635                          560082                      15330   
+636                          111594                       1662   
+637                       131478094                    5888514   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                                    0                           0   
+1                                    0                           0   
+2                                    0                           0   
+3                                    0                           0   
+4                                    0                           0   
+..                                 ...                         ...   
+633                         3844183475                       47051   
+634                         4654053411                       37794   
+635                         1287069039                      209544   
+636                          287815707                       11806   
+637                       419819370149                     7500839   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        0                                 0   
+1                                        0                                 0   
+2                                        0                                 0   
+3                                        0                                 0   
+4                                        0                                 0   
+..                                     ...                               ...   
+633                                  40326                              6725   
+634                                  37317                               477   
+635                                 198603                             10941   
+636                                  11709                                97   
+637                                6685528                            815311   
+
+     Amount disbursed to post office accounts  
+0                                           0  
+1                                           0  
+2                                           0  
+3                                           0  
+4                                           0  
+..                                        ...  
+633                                     24257  
+634                                   2548710  
+635                                  26150738  
+636                                         0  
+637                                2436192554  
+
+[638 rows x 42 columns]"
+8,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+635                                                NaN   
+636                                                NaN   
+637                                                NaN   
+638                                                NaN   
+639  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+635                                                NaN   
+636                                                NaN   
+637                                                NaN   
+638                                                NaN   
+639  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2019-2020   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+635                                             Total:   
+636                                                NaN   
+637                                                NaN   
+638                                                NaN   
+639  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+635                                          136093289   
+636                                                NaN   
+637                                                NaN   
+638                                                NaN   
+639  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+635                                          131342149              27036741   
+636                                                NaN                   NaN   
+637                                                NaN                   NaN   
+638                                                NaN                   NaN   
+639  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+635              16724127                     87581281   
+636                   NaN                          NaN   
+637                   NaN                          NaN   
+638                   NaN                          NaN   
+639                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+635                        57257672                     85980038  ...   
+636                             NaN                          NaN  ...   
+637                             NaN                          NaN  ...   
+638                             NaN                          NaN  ...   
+639                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+635                       43567189337     33933874            156278050   
+636                               NaN          NaN                  NaN   
+637                               NaN          NaN                  NaN   
+638                               NaN          NaN                  NaN   
+639                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+635                       149691600                    6586450   
+636                             NaN                        NaN   
+637                             NaN                        NaN   
+638                             NaN                        NaN   
+639                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+635                       424006540532                     6572619   
+636                                NaN                         NaN   
+637                                NaN                         NaN   
+638                                NaN                         NaN   
+639                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+635                                5842534                            730085   
+636                                    NaN                               NaN   
+637                                    NaN                               NaN   
+638                                    NaN                               NaN   
+639                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+635                                1541308258  
+636                                       NaN  
+637                                       NaN  
+638                                       NaN  
+639                                       NaN  
+
+[640 rows x 42 columns]","      Sno.   State Name              District Name  \
+0      1.0     NAGALAND                    DIMAPUR   
+1      2.0     NAGALAND                    KIPHIRE   
+2      3.0     NAGALAND                     KOHIMA   
+3      4.0     NAGALAND                   LONGLENG   
+4      5.0     NAGALAND                 MOKOKCHUNG   
+..     ...          ...                        ...   
+626  627.0  WEST BENGAL          PASCHIM MEDINIPUR   
+627  628.0  WEST BENGAL            PURBA MEDINIPUR   
+628  629.0  WEST BENGAL                    PURULIA   
+629  630.0  WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+630    NaN          NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                    74746                   74561   
+1                                    23827                   23827   
+2                                    53981                   53736   
+3                                    21738                   21738   
+4                                    35754                   35746   
+..                                     ...                     ...   
+626                                 762040                  755579   
+627                                 813906                  803091   
+628                                 522476                  513889   
+629                                  98937                   98006   
+630                              136093289               131342149   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                    3611                 66931                         4019   
+1                       4                 23767                           56   
+2                       6                 53531                          199   
+3                       2                 21631                          105   
+4                       2                 35373                          371   
+..                    ...                   ...                          ...   
+626                160877                100421                       494281   
+627                111333                  4856                       686902   
+628                 87825                 91842                       334222   
+629                 44327                 26355                        27324   
+630              27036741              16724127                     87581281   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                             71094                        76708  ...   
+1                             23114                        23687  ...   
+2                             41980                        47211  ...   
+3                             21580                        28814  ...   
+4                             32877                        34197  ...   
+..                              ...                          ...  ...   
+626                          433891                       764307  ...   
+627                          334671                       540303  ...   
+628                          227607                       421581  ...   
+629                           30731                        39163  ...   
+630                        57257672                     85980038  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                               18819         3995                40667   
+1                                5456         2278                 3485   
+2                                9107         2787                19954   
+3                                5891         2965                 7086   
+4                                6664         1766                27460   
+..                                ...          ...                  ...   
+626                            121872       306884              1466537   
+627                           5179901       503989              1444116   
+628                             59253       185535               744650   
+629                              8403         8996               126295   
+630                       43567189337     33933874            156278050   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                             39207                       1460   
+1                              3456                         29   
+2                             19877                         77   
+3                              6582                        504   
+4                             27083                        377   
+..                              ...                        ...   
+626                         1421775                      44762   
+627                         1406225                      37891   
+628                          724876                      19774   
+629                          124500                       1795   
+630                       149691600                    6586450   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                            137622528                           4   
+1                             25006299                           0   
+2                            104535069                           7   
+3                             30921291                           0   
+4                            215179890                         193   
+..                                 ...                         ...   
+626                         3688768178                       39046   
+627                         3025424570                       32560   
+628                         2003892917                      168567   
+629                          253828471                       10350   
+630                       424006540532                     6572619   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        4                                 0   
+1                                        0                                 0   
+2                                        7                                 0   
+3                                        0                                 0   
+4                                      193                                 0   
+..                                     ...                               ...   
+626                                  33824                              5222   
+627                                  32175                               385   
+628                                 159823                              8744   
+629                                  10268                                82   
+630                                5842534                            730085   
+
+     Amount disbursed to post office accounts  
+0                                       16464  
+1                                           0  
+2                                       15405  
+3                                           0  
+4                                     1903245  
+..                                        ...  
+626                                     19291  
+627                                   1994466  
+628                                  10407595  
+629                                         0  
+630                                1541308258  
+
+[631 rows x 42 columns]"
+9,"                                                    0   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                                 Sno.   
+..                                                 ...   
+633                                                NaN   
+634                                                NaN   
+635                                                NaN   
+636                                                NaN   
+637  Note: Figures shown above are indicative only ...   
+
+                                                    1   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                                           State Name   
+..                                                 ...   
+633                                                NaN   
+634                                                NaN   
+635                                                NaN   
+636                                                NaN   
+637  Note: Figures shown above are indicative only ...   
+
+                                                    2   \
+0         MGNREGA Public Data Portal For FY: 2020-2021   
+1                                                  NaN   
+2                                                  NaN   
+3    Sno.State NameDistrict NameTotal households ap...   
+4                                        District Name   
+..                                                 ...   
+633                                             Total:   
+634                                                NaN   
+635                                                NaN   
+636                                                NaN   
+637  Note: Figures shown above are indicative only ...   
+
+                                                    3   \
+0                                                  NaN   
+1                                                  NaN   
+2                                                  NaN   
+3                                                  NaN   
+4                Total households applied for job card   
+..                                                 ...   
+633                                          146009723   
+634                                                NaN   
+635                                                NaN   
+636                                                NaN   
+637  Note: Figures shown above are indicative only ...   
+
+                                                    4                     5   \
+0                                                  NaN                   NaN   
+1                                                  NaN                   NaN   
+2                                                  NaN                   NaN   
+3                                                  NaN                   NaN   
+4                               Total job cards issued  Total job cards (SC)   
+..                                                 ...                   ...   
+633                                          136750670              27662973   
+634                                                NaN                   NaN   
+635                                                NaN                   NaN   
+636                                                NaN                   NaN   
+637  Note: Figures shown above are indicative only ...                   NaN   
+
+                       6                            7   \
+0                     NaN                          NaN   
+1                     NaN                          NaN   
+2                     NaN                          NaN   
+3                     NaN                          NaN   
+4    Total job cards (ST)  Total job cards (non-SC/ST)   
+..                    ...                          ...   
+633              17090142                     91997555   
+634                   NaN                          NaN   
+635                   NaN                          NaN   
+636                   NaN                          NaN   
+637                   NaN                          NaN   
+
+                                 8                            9   ...  \
+0                               NaN                          NaN  ...   
+1                               NaN                          NaN  ...   
+2                               NaN                          NaN  ...   
+3                               NaN                          NaN  ...   
+4    Total households demanded work  Total persons demanded work  ...   
+..                              ...                          ...  ...   
+633                        69550437                    105250481  ...   
+634                             NaN                          NaN  ...   
+635                             NaN                          NaN  ...   
+636                             NaN                          NaN  ...   
+637                             NaN                          NaN  ...   
+
+                                   32           33                   34  \
+0                                 NaN          NaN                  NaN   
+1                                 NaN          NaN                  NaN   
+2                                 NaN          NaN                  NaN   
+3                                 NaN          NaN                  NaN   
+4    Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts   
+..                                ...          ...                  ...   
+633                         614916304     39320467            156100667   
+634                               NaN          NaN                  NaN   
+635                               NaN          NaN                  NaN   
+636                               NaN          NaN                  NaN   
+637                               NaN          NaN                  NaN   
+
+                                 35                         36  \
+0                               NaN                        NaN   
+1                               NaN                        NaN   
+2                               NaN                        NaN   
+3                               NaN                        NaN   
+4    Total individual bank accounts  Total joint bank accounts   
+..                              ...                        ...   
+633                       149545596                    6555071   
+634                             NaN                        NaN   
+635                             NaN                        NaN   
+636                             NaN                        NaN   
+637                             NaN                        NaN   
+
+                                    37                          38  \
+0                                  NaN                         NaN   
+1                                  NaN                         NaN   
+2                                  NaN                         NaN   
+3                                  NaN                         NaN   
+4    Amount disbursed to bank accounts  Total post office accounts   
+..                                 ...                         ...   
+633                       487559203178                     6520754   
+634                                NaN                         NaN   
+635                                NaN                         NaN   
+636                                NaN                         NaN   
+637                                NaN                         NaN   
+
+                                        39                                40  \
+0                                      NaN                               NaN   
+1                                      NaN                               NaN   
+2                                      NaN                               NaN   
+3                                      NaN                               NaN   
+4    Total individual post office accounts  Total joint post office accounts   
+..                                     ...                               ...   
+633                                5798420                            722334   
+634                                    NaN                               NaN   
+635                                    NaN                               NaN   
+636                                    NaN                               NaN   
+637                                    NaN                               NaN   
+
+                                           41  
+0                                         NaN  
+1                                         NaN  
+2                                         NaN  
+3                                         NaN  
+4    Amount disbursed to post office accounts  
+..                                        ...  
+633                                1921596517  
+634                                       NaN  
+635                                       NaN  
+636                                       NaN  
+637                                       NaN  
+
+[638 rows x 42 columns]","      Sno.   State Name              District Name  \
+0      1.0     NAGALAND                    DIMAPUR   
+1      2.0     NAGALAND                    KIPHIRE   
+2      3.0     NAGALAND                     KOHIMA   
+3      4.0     NAGALAND                   LONGLENG   
+4      5.0     NAGALAND                 MOKOKCHUNG   
+..     ...          ...                        ...   
+624  625.0  WEST BENGAL          PASCHIM MEDINIPUR   
+625  626.0  WEST BENGAL            PURBA MEDINIPUR   
+626  627.0  WEST BENGAL                    PURULIA   
+627  628.0  WEST BENGAL  SILIGURI MAHAKUMA PARISAD   
+628    NaN          NaN                     Total:   
+
+     Total households applied for job card  Total job cards issued  \
+0                                    74780                   74588   
+1                                    23848                   23848   
+2                                    53789                   53542   
+3                                    21738                   21738   
+4                                    35744                   35736   
+..                                     ...                     ...   
+624                                 837716                  802472   
+625                                 870086                  826299   
+626                                 549814                  528102   
+627                                 102547                   99756   
+628                              146009723               136750670   
+
+     Total job cards (SC)  Total job cards (ST)  Total job cards (non-SC/ST)  \
+0                    3611                 66958                         4019   
+1                       4                 23788                           56   
+2                       6                 53337                          199   
+3                       2                 21631                          105   
+4                       2                 35364                          370   
+..                    ...                   ...                          ...   
+624                164527                101520                       536425   
+625                111724                  4861                       709714   
+626                 88932                 93055                       346115   
+627                 44758                 26767                        28231   
+628              27662973              17090142                     91997555   
+
+     Total households demanded work  Total persons demanded work  ...  \
+0                             70622                        73942  ...   
+1                             23052                        25944  ...   
+2                             31581                        33078  ...   
+3                             21566                        28154  ...   
+4                             34123                        34486  ...   
+..                              ...                          ...  ...   
+624                          592434                       993041  ...   
+625                          366207                       563196  ...   
+626                          276575                       492503  ...   
+627                           41312                        47986  ...   
+628                        69550437                    105250481  ...   
+
+     Amount sanctioned (Rs. In Lakhs)  Total works  Total bank accounts  \
+0                               24343         4866                40667   
+1                                8447         2847                 3485   
+2                               14923         3375                19954   
+3                                5216         2987                 7086   
+4                                7270         2108                27460   
+..                                ...          ...                  ...   
+624                            244322       373473              1466537   
+625                           1333144       560916              1444116   
+626                             72011       220033               744650   
+627                              7481         9749               126295   
+628                         614916304     39320467            156100667   
+
+     Total individual bank accounts  Total joint bank accounts  \
+0                             39207                       1460   
+1                              3456                         29   
+2                             19877                         77   
+3                              6582                        504   
+4                             27083                        377   
+..                              ...                        ...   
+624                         1421775                      44762   
+625                         1406225                      37891   
+626                          724876                      19774   
+627                          124500                       1795   
+628                       149545596                    6555071   
+
+     Amount disbursed to bank accounts  Total post office accounts  \
+0                            117815147                           4   
+1                             18241281                           0   
+2                             66827374                           7   
+3                             22549811                           0   
+4                             99310425                         193   
+..                                 ...                         ...   
+624                         5240048617                       39046   
+625                         2976747816                       32560   
+626                         2121892657                      168567   
+627                          238834753                       10350   
+628                       487559203178                     6520754   
+
+     Total individual post office accounts  Total joint post office accounts  \
+0                                        4                                 0   
+1                                        0                                 0   
+2                                        7                                 0   
+3                                        0                                 0   
+4                                      193                                 0   
+..                                     ...                               ...   
+624                                  33824                              5222   
+625                                  32175                               385   
+626                                 159823                              8744   
+627                                  10268                                82   
+628                                5798420                            722334   
+
+     Amount disbursed to post office accounts  
+0                                       14813  
+1                                           0  
+2                                       22272  
+3                                           0  
+4                                      920064  
+..                                        ...  
+624                                     18903  
+625                                    939106  
+626                                   7285368  
+627                                         0  
+628                                1921596517  
+
+[629 rows x 42 columns]"
